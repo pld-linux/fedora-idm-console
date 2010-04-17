@@ -14,7 +14,7 @@ BuildRequires:	idm-console-framework >= 1.1
 BuildRequires:	jss >= 4.2
 BuildRequires:	ldapsdk
 Requires:	idm-console-framework >= 1.1
-Requires:	java-sun-jre-X11
+Requires:	jre-X11
 Requires:	which
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
